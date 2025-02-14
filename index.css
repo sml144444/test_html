@@ -1,0 +1,151 @@
+*{
+    color: #fff;
+}
+h1{
+    font-size: 2rem;
+    font-family: Helvetica, sans-serif;
+}
+h1::first-letter{
+    font-size: 3.2rem;
+}
+.header{
+    background-color: rgb(225, 164, 11);
+    border-radius: 10px;
+}
+h1{
+    margin: 10px;
+}
+nav{
+    border-radius: 10px;
+    background-color:black;
+    border: 3px solid #fff;
+}
+
+main{
+    display: flex;
+}
+nav ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    padding: 6px 6px;
+    border-right: 1px solid #fff;
+    transition: 0.5s ease;
+}
+ a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-bottom: #ffffff;
+    transition: 0.5s ease;
+}
+li:hover{
+    color: #000000;
+    background-color: rgb(236, 251, 248);
+}
+a:hover{
+    color: #000000;
+}
+
+.content{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.d1{
+    background-color: rgb(225, 164, 11);
+    border-radius: 10px;
+    width: 30%;
+    margin: 10px;
+    border: 3px solid #fff;
+    height: fit-content;
+    box-shadow: 0 0 20px 0 rgb(0,0,0,0.3);
+    transition: 0.5s ease;
+}
+
+.d1:hover{
+    transform: translateY(-10px);
+}
+
+.d3{
+    background-color: rgb(225, 164, 11);
+    border-radius: 10px;
+    width: 30%;
+    margin: 10px;
+    border: 3px solid #fff;
+    height: fit-content;
+    box-shadow: 0 0 20px 0 rgb(0,0,0,0.3);
+    transition: 0.5s ease;
+}
+
+.d2:hover{
+    transform: translateY(-10px);
+}
+.d2{
+    background-color: rgb(225, 164, 11);
+    border-radius: 10px;
+    width: 30%;
+    margin: 10px;
+    border: 3px solid #fff;
+    height: fit-content;
+    box-shadow: 0 0 20px 0 rgb(0,0,0,0.3);
+    transition: 0.5s ease;
+}
+
+.d3:hover{
+    transform: translateY(-10px);
+}
+
+article{
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 10px 10px;
+    background-color:black;
+    border: 3px solid #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+article button{
+    border: none;
+    color: #000000;
+    background-color:#fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: fit-content;
+    margin: 10px auto ;
+}
+article p{
+    width: 80%;
+    margin: 5px auto;
+}
+.content h2,.content p{
+    color: #000000;
+}
+h1 , h2{
+    color: #000000;
+}
+h2{
+    text-align: center ;
+}
+
+@media (max-width:750px){
+    main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.d1,.d2,.d3{
+    background-color: rgb(225, 164, 11);
+    border-radius: 10px;
+    width: 80%;
+    margin: 10px;
+    border: 3px solid #fff;
+}
+}
